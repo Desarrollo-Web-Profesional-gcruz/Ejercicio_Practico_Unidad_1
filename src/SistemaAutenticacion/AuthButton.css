@@ -1,0 +1,54 @@
+.auth-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  min-width: 180px;
+  justify-content: center;
+}
+
+.auth-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+.auth-button:active {
+  transform: translateY(1px);
+}
+
+/* Login Button */
+.auth-button-login {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+.auth-button-login:hover {
+  background: #1d4ed8;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.auth-button-login:active {
+  background: #1e40af;
+}
+
+/* Logout Button */
+.auth-button-logout {
+  background: #dc2626;
+  color: #ffffff;
+}
+
+.auth-button-logout:hover {
+  background: #b91c1c;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+}
+
+.auth-button-logout:active {
+  background: #991b1b;
+}
